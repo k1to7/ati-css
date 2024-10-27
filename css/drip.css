@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: monospace;
 }
 
 header {
@@ -15,6 +15,10 @@ header {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
+}
+
+header > a {
+    font-family: Calibri;
 }
 
 header a {
@@ -36,6 +40,7 @@ nav ul li a {
 }
 
 h3 {
+    font-family: monospace;
     text-align: center;
     margin: 20px 0;
 }
@@ -50,16 +55,16 @@ section {
 
 p {
     color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 article {
+    max-width: 450px;
     flex: 1 1 200px;
     text-align: center;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 @media (max-width: 670px) {
